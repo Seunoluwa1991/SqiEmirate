@@ -1,0 +1,152 @@
+header{
+    position: relative;
+}
+
+.first{
+    align-items: center;
+}
+
+p{   
+    margin-left: 100px;
+}
+.anchor:hover{
+    background-color: rgba(144, 144, 215, 0.775);
+}
+
+.second{
+    justify-content: space-around;
+    background-color: rgba(17, 16, 16, 0.863);
+    height: 60px;
+    align-items: center;
+}
+
+nav{
+    position: relative;
+}
+
+.child-1{
+    position: absolute;
+    border: .1px none solid;
+    background-color: crimson;
+    padding: 10px;
+    height:130px;
+    top: 0;
+    right: 73em;
+}
+
+.child-2{
+ margin-left: 50px;
+}
+
+span {
+    margin: 15px;   
+    font-size: small;
+}
+
+span a{
+    color:white;
+    font-weight: 600;
+    font-size:  14px ;
+    text-decoration: none ;
+}
+span a:hover{
+    box-shadow: 0px 1px 2px .5px gray;
+}
+
+.bgimg{
+    background: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    border: solid 1px gray;
+    position: relative;
+}
+
+/* .bgimg::before{
+    content:"";
+    position:absolute;
+    height: 75vh;
+    background:linear-gradientrgba((0, 0, 0, 0); url()
+ } */
+
+.fly-emirate{
+    position: absolute;
+    top:150px;
+    left:1100px;
+ }
+
+
+
+.discover{
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pass{
+    font-size: 10px;
+}
+
+/* NEXT STAGE */
+
+.container{
+    position: relative;
+    top:-65px;
+    height:40vh;
+    border-radius: 10px;
+}
+
+
+.col:hover{
+    box-shadow: 2px 2px .9px silver;
+}
+
+/* .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn{
+    padding: 20px 60px;
+    background-color: cadetblue;
+}
+
+.dropdown-items{
+    position: absolute;
+    padding: 10px;
+    min-width: 160px;
+}
+
+.dropdown-items a:hover {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    margin: 5px;
+    text-decoration: none;
+    position: relative;
+}
+ul li a{
+    padding: 20px 50px;
+    text-decoration: none;
+    color:orangered;
+}
+
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover{
+   
+}
+
+ul li:hover .dropdown{
+    display:block;
+}
