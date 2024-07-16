@@ -163,10 +163,18 @@ ul li ul.dropdown{
     display: none;
 }
 
-ul li a:hover{
+/* ul li a:hover{
    
-}
+} */
 
 ul li:hover .dropdown{
     display:block;
 }
+
+
+
+/* To create a master/main on git
+git branch "name"
+git check out "name"
+
+*/
