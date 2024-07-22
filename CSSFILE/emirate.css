@@ -1,6 +1,6 @@
-header{
+/* header{
     position: relative;
-}
+} */
 
 .first{
     align-items: center;
@@ -14,28 +14,16 @@ p{
 }
 
 .second{
+    display: flex;
     justify-content: space-around;
     background-color: rgba(17, 16, 16, 0.863);
     height: 60px;
-    align-items: center;
 }
 
-nav{
-    position: relative;
-}
-
-.child-1{
-    position: absolute;
-    border: .1px none solid;
-    background-color: crimson;
-    padding: 8px;
-    height:130px;
-    top: 0;
-    right:73em;
-}
-
-.child-2{
- margin-left: 50px;
+.img{
+    background: crimson;
+    /* position: absolute; */
+    margin-top: 60px;
 }
 
 span {
@@ -52,9 +40,11 @@ span a{
 span a:hover{
     box-shadow: 0px 1px 2px .5px gray;
 }
+.section-1{
 
+    background: url(/emirateimages/FEEDBACKview-of-dubai-canal-at-sunset-pb-w1920x480.avif);
+}
 .bgimg{
-    background: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
     height: 75vh;
     background-position: center;
     background-size: cover;
@@ -90,7 +80,6 @@ span a:hover{
 h1{
     margin:0px;
     font-size: 70px;
-    /* padding: 50px; */
     font-stretch: condensed ;    
 }
 
@@ -102,13 +91,13 @@ h1{
     font-size: 10px;
 }
 
-/* NEXT STAGE */
+/* CONTAINER STAGE */
 
 .container{
     position: relative;
     top:-65px;
     height:40vh;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 
@@ -121,9 +110,11 @@ h1{
     background-color: rgba(128, 128, 128, 0.148);
 }
 
+                /* FLEX STAGE */
 .parent{
     display: flex; 
     margin-top:50px; 
+    
 }
 
 .child{
@@ -138,11 +129,11 @@ h1{
     border-bottom: solid 2px red;
 }
 
-.child, a{
-    align-items: center;
-    color: gray;
-    font-family: 'Times New Roman', Times, serif;
+.child,a{
     border: 1px solid none;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    /* align-items: center; */
 }
 
 .child-a{
@@ -153,8 +144,181 @@ h1{
     
 }
 .child i{
-    font-size: 30px;   
+    font-size: 30px;
 }
+
+ /* FEATURE DESTINATION FROM NIGERIA USING DISPLAY:GRID  */
+
+ .parent-2{
+    border: 3px solid none;
+    margin-top: 200px;
+    margin-left: 110px;
+ }
+.destination{
+    display: flex;
+    border: 1px solid none;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 40px;
+    
+}
+
+.features{
+    /* margin: auto; */
+    border: 1px solid silver;
+    height: 300px;
+    width:530px;
+}
+
+.features:hover{
+    box-shadow: 1px 2px 2px 1px silver;
+}
+
+.d-flex{
+    margin-left: 430px;
+    gap: 100px;
+}
+button{
+    padding: 10px 70px;
+    border-radius: 5px;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+                        /* SECOND BACKGROUND IMAGE */
+
+.parent-3{
+    background: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
+    height: 75vh;
+    margin-top: 2rem;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: solid 4px  white;
+    position: relative;
+}
+
+.parent-3::before{
+    content: "";
+    position: absolute;
+    background-image: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
+    background-image: linear-gradient(to right, rgba(0,0,0,.1)) to rgba(1, 2, 3, 0.5);
+}   
+
+
+.summer-offer{
+    text-align: center;
+    margin-top: 70px;
+}
+                    /* MID_POINT */
+
+.mid-point{
+    text-align: center;
+    margin-top: 50px;
+}
+
+            /* GRID LEVEL FOR DISHES */
+
+.grid-level{
+    display: grid;
+    grid-template-columns: repeat(4, 262px);
+    grid-template-rows: repeat(3, 270px);
+    /* border: ridge 1px green; */
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+hr{
+    width: 40px;
+    color: crimson;
+    margin-left: 100px;
+}
+
+.level-1{
+    grid-column: 1/3;
+    grid-row: 1/3 ;
+    background: url(../emirateimages/dubai-downtown-skyline-at-sunset-d800x600\ \(1\).jpg);
+    background-position:top;
+    background-size:center;
+}
+
+.level-2{
+    background: url(../emirateimages/first-class-dessert-w800x600\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 50px; */
+}
+
+.level-3{
+    background: url(../emirateimages/business-class-meal-w800x600.jpg);
+    background-position: center;
+    background-size: cover;
+    /* text-align: center; */
+
+}
+
+.level-4{
+    background: url(../emirateimages/premium-economy-menu-w800x600.jpg);
+    background-position: center;
+    background-size:150%;
+    /* background-repeat: no-repeat; */
+}
+
+.level-5{
+    background: url(../emirateimages/economy-class-chocolate-dessert-w800x600.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Learn-more{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen {
+    
+}
+
+.dishes{
+    border: solid 1px silver;
+    border-radius: 3px;
+}
+
+.dishes:hover{
+    box-shadow: 1px -2px 3px 2px silver;
+}
+
+
+ /* .destination{
+    border: solid 1px red;
+    height:100vh;
+    padding: .5rem;
+    display:grid;
+    margin-top: 120px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+ }
+
+ .features{
+    border: 1px solid red;
+   
+ } */
+
+ /* .child-h{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+ }
+ .child-i{
+    grid-column: 3/5;
+ }
+ */
+
+ 
 
 
 
