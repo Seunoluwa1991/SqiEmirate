@@ -1,12 +1,12 @@
-/* header{
-    position: relative;
-} */
+body{
+    overflow-x:hidden;
+}
 
 .first{
     align-items: center;
 }
 
-p{   
+.para{   
     margin-left: 100px;
 }
 .anchor:hover{
@@ -14,16 +14,22 @@ p{
 }
 
 .second{
-    display: flex;
+    /* display: flex; */
+    position: relative;
     justify-content: space-around;
     background-color: rgba(17, 16, 16, 0.863);
     height: 60px;
 }
 
 .img{
-    background: crimson;
-    /* position: absolute; */
-    margin-top: 60px;
+    background: #d41c2c;
+    border: 2px solid red;
+    height: 120px;
+    width:80px;
+    position: absolute;
+    top: 0px;
+    left: 102px;
+   
 }
 
 span {
@@ -41,16 +47,16 @@ span a:hover{
     box-shadow: 0px 1px 2px .5px gray;
 }
 .section-1{
-
     background: url(/emirateimages/FEEDBACKview-of-dubai-canal-at-sunset-pb-w1920x480.avif);
+    background-position: center;
+    background-size: cover;
+
 }
 .bgimg{
     height: 75vh;
-    background-position: center;
-    background-size: cover;
     border: solid 1px gray;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 
@@ -66,6 +72,10 @@ span a:hover{
     position: absolute;
     top:10px;
     left:1100px;
+ }
+
+ .child-2{
+    margin-left: 150px;
  }
 
 .word{
@@ -129,15 +139,13 @@ h1{
     border-bottom: solid 2px red;
 }
 
-.child,a{
+.child a{
     border: 1px solid none;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
-    /* align-items: center; */
 }
 
 .child-a{
-    border: 1px none none;
     position: absolute;
     top: 25px;
     left: 15px;
@@ -175,10 +183,11 @@ h1{
     box-shadow: 1px 2px 2px 1px silver;
 }
 
-.d-flex{
+.butt{
     margin-left: 430px;
     gap: 100px;
 }
+
 button{
     padding: 10px 70px;
     border-radius: 5px;
@@ -223,7 +232,8 @@ button{
 .grid-level{
     display: grid;
     grid-template-columns: repeat(4, 262px);
-    grid-template-rows: repeat(3, 270px);
+    grid-template-rows: repeat(2, 270px);
+    border: 2px solid pink;
     /* border: ridge 1px green; */
     width: 80%;
     margin: auto;
@@ -232,9 +242,9 @@ button{
 }
 
 hr{
-    width: 40px;
-    color: crimson;
+    color: white;
     margin-left: 100px;
+    
 }
 
 .level-1{
@@ -290,6 +300,115 @@ hr{
 .dishes:hover{
     box-shadow: 1px -2px 3px 2px silver;
 }
+
+.section-5{
+    text-align:center;
+    margin-top: 100px;
+}
+.section5a{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.circle{
+    display: flex;
+    border: red none 1px;
+    height: 11rem;
+    width: 11rem;
+    margin: 15px;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+.circle:hover{
+    border: 4px solid gray;
+}
+
+.business{
+    background: url(../emirateimages/businesscirclea380-sky-view-w300x300.avif);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+.planet{
+    background: url(../emirateimages/ourplanetcirclesunlight-baths-the-blyde-river-canyon-w300x300.avif);
+    background-position: center;
+    background-size: cover;
+}
+.people{
+    background: url(../emirateimages/ourpeoplecircleemirates-group-staff-group-photo-m300x300.avif);
+    background-position: center;
+    background-size: cover;
+}
+.communities{
+    background: url(../emirateimages/ourcommunityfamily-planting-tree-w300x300.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section5a a{
+    margin-top: 200px;
+}
+
+.our a{
+    margin: 60px;
+    color:black;
+    font-weight: 600;
+}
+
+.section-6{
+    background-color: gray;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.section-6a{
+    justify-content: space-around;
+    display: inline-flex;
+    border: 1px solid none;
+    width: 80%;
+    /* margin: auto; */
+}
+
+p{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch:extra-expanded;
+}
+
+
+.section-6a, li, a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.section-6a li a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /* .destination{
