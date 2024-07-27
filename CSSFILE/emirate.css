@@ -199,6 +199,7 @@ button{
 
 .parent-3{
     background: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.54), rgba);
     height: 75vh;
     margin-top: 2rem;
     background-position: center;
@@ -208,12 +209,12 @@ button{
     position: relative;
 }
 
-.parent-3::before{
+/* .parent-3::before{
     content: "";
     position: absolute;
     background-image: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
     background-image: linear-gradient(to right, rgba(0,0,0,.1)) to rgba(1, 2, 3, 0.5);
-}   
+}    */
 
 
 .summer-offer{
@@ -298,7 +299,7 @@ hr{
 }
 
 .dishes:hover{
-    box-shadow: 1px -2px 3px 2px silver;
+    box-shadow: -1px -2px 3px 2px silver;
 }
 
 .section-5{
@@ -320,21 +321,21 @@ h2{
 .circle{
     display: flex;
     border: red none 1px;
-    height: 11rem;
-    width: 11rem;
+    height: 9rem;
+    width: 9rem;
     margin: 15px;
     border-radius: 50%;
     margin-top: 70px;
 }
 .circle:hover{
-    border: 4px solid gray;
+    transform: rotate(360deg);
+    transition: all 0.3s;
 }
 
 .business{
     background: url(../emirateimages/businesscirclea380-sky-view-w300x300.avif);
     background-position: center;
     background-size: cover;
-    display: block;
 }
 .planet{
     background: url(../emirateimages/ourplanetcirclesunlight-baths-the-blyde-river-canyon-w300x300.avif);
@@ -354,16 +355,20 @@ h2{
 
 .section5a a{
     margin-top: 200px;
+    display: block;
 }
 
 .our a{
     margin: 60px;
     color:black;
     font-weight: 600;
+    border: 1px solid red;
 }
 
+                    /* FOOTER */
+
 .section-6{
-    background-color: gray;
+    background-color: #343434;
     width: 100%;
     padding-top: 50px;
 }
@@ -380,7 +385,7 @@ p{
     margin-left: 30px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-stretch:extra-expanded;
+    font-stretch: extra-expanded;
 }
 
 
