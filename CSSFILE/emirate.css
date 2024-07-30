@@ -71,7 +71,7 @@ span a:hover{
 .fly-emirate{
     position: absolute;
     top:10px;
-    left:1100px;
+    left:1500px;
  }
 
  .child-2{
@@ -107,7 +107,6 @@ h1{
     position: relative;
     top:-65px;
     height:40vh;
-    /* border-radius: 10px; */
 }
 
 
@@ -123,9 +122,9 @@ h1{
                 /* FLEX STAGE */
 .parent{
     display: flex; 
-    width: 85%;
-    margin-top:10px; 
+    width: 100%;
     margin: auto;
+    margin-top:150px; 
     
 }
 
@@ -160,35 +159,44 @@ h1{
  /* FEATURE DESTINATION FROM NIGERIA USING DISPLAY:GRID  */
 
  .parent-2{
-    border: 3px solid none;
+    /* border: 3px solid green; */
+    margin-right: 110px;
+    width: 90%;
+    margin: auto;
     margin-top: 200px;
-    margin-left: 110px;
-    margin-top: 50px;
  }
+
 .destination{
     display: flex;
-    border: 1px solid none;
     flex-wrap: wrap;
-    column-gap: 50px;
     row-gap: 50px;
     margin-top: 40px;
     
 }
 
 .features{
-    /* margin: auto; */
     border: 1px solid silver;
-    height: 300px;
-    width:530px;
+    height: 400px;
+    width:650px;
+    margin-left: 100px;
     text-align: center;
 }
 
+
+.features p, h4 h6{
+    margin-top: 50px;
+}
+
 .features:hover{
-    box-shadow: 1px 2px 2px 1px silver;
+    box-shadow: 1px 1px 4px 2px silver;
+}
+img:hover{
+    box-shadow: 1px 1px 4px 2px silver;
+
 }
 
 .butt{
-    margin-left: 430px;
+    margin-left: 660px;
     gap: 100px;
 }
 
@@ -205,8 +213,6 @@ button{
     background: url(/emirateimages/firsthappy-families-water-slidding-in-aqua-park-hp-w1920x480.webp);
     background-image: linear-gradient(rgba( 2px, 3px, 5px, 0.4), rgba(2px, 4px, 1px, 0.4 ));
     height: 75vh;
-    /* margin: 0; */
-    /* padding: 0; */
     margin-top: 2rem;
     background-position: center;
     background-size: cover;
@@ -238,14 +244,14 @@ button{
 
 .grid-level{
     display: grid;
-    grid-template-columns: repeat(4, 262px);
+    grid-template-columns: repeat(4, 280px);
     grid-template-rows: repeat(2, 270px);
-    border: 2px solid pink;
-    /* border: ridge 1px green; */
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
     gap: 10px;
     margin-top: 70px;
+    margin-left: 400px;
+    border: #d41c2c solid 1px;
 }
 
 hr{
@@ -290,10 +296,10 @@ hr{
     background-size: cover;
 }
 
-.Learn-more{
+/* .learn-more{
     margin-top: 50px;
     text-align: center;
-}
+} */
 
 @media screen {
     
@@ -308,23 +314,37 @@ hr{
     box-shadow: -1px -2px 3px 2px silver;
 }
 
+
+                /* SECTION % */
 .section-5{
     text-align:center;
     margin-top: 100px;
 }
 .section5a{
     display: flex;
-    width: 60%;
-    margin: auto;
+   
+    margin-left: 600px;
+    border: #d41c2c solid 1px;
+    gap: 20px;
 }
-
+.circum a{
+    border: #d41c2c solid 1px;
+    color: black;
+}
+.circle{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
 
 h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     margin-top: 30px;
     font-weight: 500;
 }
-.circle{
+
+
+/* .circle{
     display: flex;
     border: red none 1px;
     height: 9rem;
@@ -336,9 +356,9 @@ h2{
 .circle:hover{
     transform: rotate(360deg);
     transition: all 0.3s;
-}
+} */
 
-.business{
+/* .business{
     background: url(../emirateimages/businesscirclea380-sky-view-w300x300.avif);
     background-position: center;
     background-size: cover;
@@ -357,19 +377,19 @@ h2{
     background: url(../emirateimages/ourcommunityfamily-planting-tree-w300x300.avif);
     background-position: center;
     background-size: cover;
-}
+} */
 
-.section5a a{
+/* .section5a a{
     margin-top: 200px;
     display: block;
-}
+} */
 
-.our a{
+/* .our a{
     margin: 60px;
     color:black;
     font-weight: 600;
     border: 1px solid red;
-}
+} */
 
                     /* FOOTER */
 
