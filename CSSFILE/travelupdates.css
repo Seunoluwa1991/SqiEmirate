@@ -1,6 +1,8 @@
 
 body{
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: extra-expanded;
 }
 
 .first-nav{
@@ -13,7 +15,7 @@ body{
 
 .img{
     background: #d41c2c;
-    border: 2px solid red;
+    border: 2px solid none;
     height: 150px;
     width:110px;
     position: absolute;
@@ -67,9 +69,71 @@ span a:hover{
     background-color: #d41c2c;
 }
 
-.search-flight a{
+/* .search-flight a{
     color: white;
     font-size: 19px;
+} */
+                /* SECTION 2 */
+.travel-updates{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.travel-updates p{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.remind{
+    border: none 1px solid ;
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px -1px 3px 2px silver;
+
+}
+.reminder{
+    border: #d41c2c 1px solid ;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    
+}
+
+.updates{
+    background-color: rgba(255, 208, 0, 0.22);
+    height: 50px;
+    
+}
+
+.section-3{
+    background-color: #343434;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.section-3a{
+    justify-content: space-around;
+    display: inline-flex;
+    border: 1px solid none;
+    width: 80%;
+    /* margin: auto; */
+}
+
+p{
+    margin-left: 30px;
+    font-size: 30px;
+   
+}
+
+
+.section-3a, li, a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.section-3a li a:hover{
+    text-decoration: underline;
+
 }
 
 
