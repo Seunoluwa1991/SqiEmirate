@@ -86,10 +86,12 @@ span a:hover{
     font-family: Heroic-Medium, Arial Narrow Bold, Franklin Gothic Medium, Franklin Gothic,
      Arial Narrow, HelveticaNeue, Helvetica, arial, sans-serif;
      font-stretch: extra-condensed;
+     transform: rotate(0deg) scale(1) skew(357deg) translate(0);
+
 }
 h1{
     margin:0px;
-    font-size: 70px;
+    font-size: 100px;
     font-stretch: condensed ;    
 }
 
